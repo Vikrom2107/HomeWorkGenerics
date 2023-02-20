@@ -7,7 +7,7 @@ public class Main {
         magicBox.add(30);
         System.out.println(magicBox.add(50));
         magicBox.pick();
-//        System.out.println(magicBox.getItems()[0]);
+        System.out.println(((Object[])magicBox.getItems())[0]);
 
         MagicBox<String> magicBoxStr= new MagicBox<>(3);
         System.out.println(magicBoxStr.add("Игрушка"));
